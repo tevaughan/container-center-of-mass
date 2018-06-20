@@ -29,8 +29,7 @@ with a python kernel, to produce both
    following.
    - `conda config --prepend channels conda-forge`
    - `conda config --prepend channels QuantStack`
-   -
-```
+   - ```
 conda install\
 bqplot\
 cling\
@@ -53,4 +52,5 @@ xeus\
 xeus-cling\
 xwidgets
 ```
+   - `conda update --all`
 

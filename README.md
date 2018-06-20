@@ -17,24 +17,31 @@ name or make a new jupyter notebook.
 
 A jupyter notebook is a vertical array of *cells*.
 
-Each cell is, typically, either a *markdown cell* or a *code cell*.
+Each cell is, typically, either a *markdown cell* or a *code cell*.  In turn,
+each code cell has both an input field and an output field.  The code is
+entered into the input field, and any output produced by the code appears in
+the output field when the code cell is executed.
 
 The markdown supported by jupyter has mathjax rendering of LaTeX mathematical
 notation.
 
 Every code cell is processed by the notebook's *kernel*, which is an interface
 to a particular language.  Several different languages are supported.  The ones
-that most interest me are python (supported by the ipython kernel) and C++
-(supported by the cling kernel).  Python is interesting because it is perhaps
-the best supported language for jupyter and has an extremely large set of
-libraries to avoid reinvention of the wheel.  C++ is interesting because I do
-most of my professional work in C++.
+that most interest me are
 
-What makes jupyter notebooks in general of interest to me is the integration of
-beautiful mathematics, syntax-highlighted code, and interactive visualizations
-produced by that code.  Also, a jupyter notebook can be translated into both
-PDF and static HTML.  In some cases, an interactive visualization continues to
-work even in the static-HTML version of the notebook.
+ - python (supported by the ipython kernel) and
+ - C++ (supported by the cling kernel).
+
+Python is interesting because it is perhaps the best supported language for
+jupyter and has an extremely large set of libraries to avoid reinvention of the
+wheel.  C++ is interesting because I do most of my professional work in C++.
+
+What makes the jupyter notebook in general of interest to me is the integration
+of beautiful mathematics, syntax-highlighted code, and interactive
+visualizations produced by that code.  Also, a jupyter notebook can be
+translated into both PDF and static HTML.  In some cases, an interactive
+visualization continues to work even in the static-HTML version of the
+notebook.
 
 ## Interactive, 2-D Visualization
 

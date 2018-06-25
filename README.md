@@ -77,26 +77,26 @@ $ conda config --prepend channels conda-forge`
 $ conda config --prepend channels QuantStack`
 
 $ conda install\
-bqplot\
-cling\
-ipywidgets\
-jupyter_client\
-jupyter_core\
-jupyter_sphinx\
-matplotlib\
-nbsphinx\
-numpy\
-pandas\
-scipy\
-sphinx\
-sphinx-nbexamples\
-statsmodels\
-svgwrite\
-theano\
-widgetsnbextension\
-xeus\
-xeus-cling\
-xwidgets
+ bqplot\
+ cling\
+ ipywidgets\
+ jupyter_client\
+ jupyter_core\
+ jupyter_sphinx\
+ matplotlib\
+ nbsphinx\
+ numpy\
+ pandas\
+ scipy\
+ sphinx\
+ sphinx-nbexamples\
+ statsmodels\
+ svgwrite\
+ theano\
+ widgetsnbextension\
+ xeus\
+ xeus-cling\
+ xwidgets
 
 $ conda update --all`
 ```
